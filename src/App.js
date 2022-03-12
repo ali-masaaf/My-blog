@@ -4,9 +4,10 @@ import Create from './Create'
 import Edit from './Edit'
 import About from './About'
 import Contact from './Contact'
+import Menu from './Menu'
 import NotFound from './NotFound'
-import bkg from "./assets/background.jpeg";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import bkg from "./assets/background.jpeg"
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
 
           <Route path='/contact'>
             <Contact/>
+          </Route>
+
+          <Route path='/menu'>
+            <Menu/>
           </Route>
 
           <Route path='/*'>

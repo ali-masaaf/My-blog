@@ -1,0 +1,20 @@
+
+.app_menu{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr calc(0.618fr - 0.06545fr);
+}
+
+.menu_side-bar{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff50;
+    border-left: #FF0000 0.1px solid;
+}
+
+.menu_content{
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    justify-self: center;
+}
