@@ -1,3 +1,21 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+
+$poppins: (
+    "poppins-light": '/fonts/Poppins-Light.ttf',
+    "poppins-medium": '/fonts/Poppins-Medium.ttf',
+    "poppins-regular": '/fonts/Poppins-Regular.ttf',
+    "poppins-semiBold": '/fonts/Poppins-SemiBold.ttf',
+    "poppins-bold": '/fonts/Poppins-Bold.ttf',
+    "poppins-extraBold": '/fonts/Poppins-ExtraBold.ttf'
+);
+
+@each $name, $url in $poppins {
+    @font-face {
+        font-family: $name;
+        src: url($url);
+    }
+}
+
+
