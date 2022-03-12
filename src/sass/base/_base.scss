@@ -7,7 +7,29 @@
  */
 html {
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;  
+  overflow: hidden
 }
+
+body{
+  height: 100%;
+  width: 100%;
+
+}
+
+.root{
+  height: 100%;
+  width: 100%;
+
+}
+
+.root_app{
+  height: 100%;
+  width: 100%;
+
+}
+
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -18,14 +40,15 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 /**
  * Basic styles for links
  */
 a {
-  color: $brand-color;
   text-decoration: none;
 
   @include on-event {

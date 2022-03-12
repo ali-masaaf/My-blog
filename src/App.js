@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './Home'
 import Details from './Details'
 import Create from './Create'
@@ -6,12 +5,12 @@ import Edit from './Edit'
 import About from './About'
 import Contact from './Contact'
 import NotFound from './NotFound'
+import bkg from "./assets/background.jpeg";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 
 function App() {
   return (
-    <div className="App">
+    <div className="root_app">
       <Router>
         <Switch>
 
@@ -45,6 +44,7 @@ function App() {
 
         </Switch>
       </Router>
+      <img src={bkg} className="app_background"  alt=""/>
     </div>
   );
 }
