@@ -25,12 +25,13 @@
 // 5. Components
 @import
   'components/button',
-  'components/app';
+  'components/app',
+  'components/sidebar';
 
 // 6. Page-specific styles
 @import
   'pages/home',
-  'pages/menu',
+  'pages/about',
   'pages/notFound';
 
 // 7. Themes

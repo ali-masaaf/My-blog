@@ -13,7 +13,7 @@ const Menu = () => {
                 </Switch>
             </Router>
         </div>
-        <SideBar/>
+        <SideBar  class="menu"/>
     </div> 
     );
 }

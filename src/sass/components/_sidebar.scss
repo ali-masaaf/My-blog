@@ -4,8 +4,12 @@
     font-size: 4rem;
 }
 
-.menu_side-bar{
+[class$="side-bar"]{
     padding: 1rem 1rem 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff50;
+    border-left: #FF0000 0.1px solid;
 }
 
 .side-bar_exit{
