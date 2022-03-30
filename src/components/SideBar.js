@@ -1,6 +1,6 @@
-const SideBar = () => {
+const SideBar = (props) => {
     return (
-        <div className="menu_side-bar">
+        <div className={props.class + "_side-bar"}>
             <i className="side-bar_exit"/>
             <ul className="side-bar_items">
                 <li className="items_add-new-blog">Add New Blog</li>
