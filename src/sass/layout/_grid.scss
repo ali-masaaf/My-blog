@@ -4,9 +4,32 @@
     grid-template-columns: 1fr calc(0.618fr - 0.06545fr);
 }
 
+//meny page layout
+
 .menu_content{
     width: fit-content;
     height: fit-content;
     align-self: center;
     justify-self: center;
+}
+
+//about page layout
+
+.about_content{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: auto 6.74fr;
+    grid-template-rows: auto 1fr;
+    justify-items: start;
+}
+
+.content_titel{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.content_subject{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
 }

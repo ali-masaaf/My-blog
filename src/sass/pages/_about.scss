@@ -1,7 +1,43 @@
-.subject_icon-smile{
-    display: inline-block;
-    height: 3.6rem;
-    width: 3.8rem;
-    background-image: url('/assets/smile.svg');
-    background-repeat: no-repeat;
+.app_about{
+
+    .about_content{
+        margin: 2rem;
+    }
+
+    .content_titel{
+        font-size: 8.4rem;
+        font-family: "poppins-regular";
+        line-height: 7rem;
+        margin-left: -0.6rem;
+        letter-spacing: 1.3rem;
+    }
+
+    .subject_text{
+        font-size: 1.4rem;
+        font-family: "poppins-light";
+        letter-spacing: 0.2rem;
+
+        //for 1440 width device 2.3 ligne height is the righr value 
+        line-height: 2.1rem;
+        
+        margin-top: -0.8rem;
+        margin-left: -1.5rem;
+        .text_name{
+            font-size: 2rem;
+            font-family: "poppins-regular";
+        }
+        
+    }
+
+
+
+    .subject_icon-smile{
+        display: inline-block;
+        height: 3.6rem;
+        width: 3.8rem;
+        background-image: url('/assets/smile.svg');
+        background-repeat: no-repeat;
+        margin-left: 10.5rem;
+    }
 }
+
