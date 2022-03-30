@@ -6,9 +6,8 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
     letter-spacing: 0.1rem;
-}
 
-.side-bar_titel{
+.content_titel{
     font-family: 'Poppins-medium';
     font-weight: 500;
     font-size: 5rem;
@@ -16,7 +15,7 @@
     /* identical to box height, or 22% */
 }
 
-.side-bar_msg1{
+.content_msg1{
     font-family: 'Poppins-regular';
     margin-top: 1rem;
     font-size: 1.1rem;
@@ -25,7 +24,7 @@
     line-height: 1.5rem;
 }
 
-.side-bar_msg2{
+.content_msg2{
     position: relative;
     width: fit-content;
     margin-top: 0.2rem;
@@ -59,7 +58,7 @@
     line-height: 1.5rem;  
 }
 
-.side-bar_background{
+.content_background{
     position: absolute;
     top: -0.7rem;
     right: -3.3rem;
@@ -67,3 +66,4 @@
 
 
 
+}
