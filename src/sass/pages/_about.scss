@@ -1,7 +1,10 @@
 .app_about{
-
+    height: 100%;
+    
     .about_content{
-        margin: 2rem;
+        margin: 2rem 0  0 1rem;
+        height: 100%;
+        width: auto;
     }
 
     .content_titel{
@@ -28,8 +31,6 @@
         }
         
     }
-
-
 
     .subject_icon-smile{
         display: inline-block;
