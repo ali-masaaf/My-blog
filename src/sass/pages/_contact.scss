@@ -1,0 +1,67 @@
+.app_contact{
+    height: 100%;
+    
+    .contact_content{
+        margin: 2rem 0  0 1rem;
+        height: 100%;
+        width: auto;
+    }
+
+    .content_titel{
+        font-size: 4.1rem;
+        font-family: "poppins-regular";
+        line-height: 7rem;
+        letter-spacing: 1.3rem;
+
+        margin-top: -1.9rem;
+        margin-left: -0.3rem;
+    
+    }
+
+    .content_subject{
+        height: fit-content;
+        margin-left: -1.4rem;
+    }
+
+    .subject_text{
+        font-size: 1.9rem;
+        font-family: "poppins-light";
+        letter-spacing: 0.3rem;
+
+        //for 1440 width device 2.3 ligne height is the righr value 
+        line-height: 3rem;      
+        text-align: center;  
+    }
+
+    .icons_linkedin{
+        background-image: url('/assets/icons/linkedin.svg');
+        display: inline-block;
+        height: 2rem;
+        width: 2.06rem;
+        background-repeat: no-repeat;
+    }
+    .icons_github{
+        background-image: url('/assets/icons/github.svg');
+        display: inline-block;
+        height: 2rem;
+        width: 2.06rem;
+        background-repeat: no-repeat;
+    }
+    .icons_dribbble{
+        background-image: url('/assets/icons/dribbble.svg');
+        display: inline-block;
+        height: 2.25rem;
+        width: 2.31rem;
+        background-repeat: no-repeat;
+    }
+    .icons_behance{
+        background-image: url('/assets/icons/behance.svg');
+        display: inline-block;
+        height: 2rem;
+        width: 3.31rem;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
