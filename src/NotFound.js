@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import seagull from "./assets/seagull.svg";
 const NotFound = () => {
     return ( 
@@ -12,7 +13,8 @@ const NotFound = () => {
                     <img src={seagull} className="content_background"  alt=""/>
                 </div>              
                 <div className="content_msg3">
-                    <h2 className="msg3_part1">Otherwise we can go back Home</h2>
+                    
+                    <h2 className="msg3_part1">Otherwise we can go back <Link to="/">Home</Link></h2>
                     <i className="msg3_icon"/>
                     <h2 className="msg3_part2">toghether.</h2>
                 </div>
