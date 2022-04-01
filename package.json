@@ -21,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "commitlint": "echo 'module.exports = { extends: ['@commitlint/config-conventional'] };' > commitlint.config.js",
     "prepare": "npx husky install && (echo #!/bin/sh &&  echo . \"$(dirname \"$0\")/_/husky.sh\" &&  echo npx --no -- commitlint --edit $1) > .husky/commit-msg && npx husky add .husky/commit-msg 'npx --no -- commitlint --edit $1'"
+  
   },
   "eslintConfig": {
     "extends": [
