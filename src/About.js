@@ -1,10 +1,14 @@
 import SideBar from './components/SideBar.js'
+import {Link} from 'react-router-dom'
 
 const About = () => {
     return ( 
         <div className="app_about">
             <div className="about_content">
-                <h1  className='content_titel'>I'M</h1>
+                
+                <h1  className='content_titel'>
+                    <Link to="/" className="titel_link">I'M</Link>
+                </h1>
                 <div className='content_subject'>
                     <h1  className='subject_text'>
                         <span className='text_name'>Ali MASAAF</span> UI/UX<br/>
