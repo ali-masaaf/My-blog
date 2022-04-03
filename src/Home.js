@@ -16,7 +16,7 @@ const Home = () => {
                         <i className='button_menu-icon'/>
                     </Link>
                     
-                    <div className="subject_blog-list"></div>
+                    <div className="subject_blogs-list"></div>
                 </div>
             </div>
         </div> 
