@@ -29,15 +29,20 @@
     }
 
     .content_subject{
-        height: fit-content;
-        height: 100%;
         width: 100%;
+        overflow-y: hidden;
+
     }
 
-    .subject_blogs-list{
-        width: 100%;
-        height: 19.77rem;
-    
+    .content_subject::-webkit-scrollbar {
+        display: none;
+    }
+
+    .content_button-menu{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        z-index: 2;
     }
 
     .button_menu-icon{
