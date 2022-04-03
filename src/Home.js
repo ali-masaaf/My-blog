@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import BlogsList from './components/BlogsList';
 
 const Home = () => {
     return ( 
@@ -15,8 +16,8 @@ const Home = () => {
                     <Link to="/menu" className='subject_button-menu'>
                         <i className='button_menu-icon'/>
                     </Link>
-                    
-                    <div className="subject_blogs-list"></div>
+
+                    <BlogsList className="subject_blogs-list"/>
                 </div>
             </div>
         </div> 
