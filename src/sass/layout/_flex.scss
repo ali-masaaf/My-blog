@@ -22,3 +22,29 @@
         gap: 1rem;
     }
 }
+
+
+// home page flex layout
+
+.home_content{
+    .content_subject{
+        display: flex;
+        overflow: auto;
+    }
+
+    .subject_blogs-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 2rem;    
+    }
+}
+
+
+// Card flex layout
+
+.left-side_actions{
+    display: flex;
+    gap: 0.5rem;
+}

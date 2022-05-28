@@ -11,17 +11,17 @@ const Home = () => {
                         Blog
                     </h1>
                 </Link>
-                
-                <div className='content_subject'>
-                    <Link to="/menu" className='subject_button-menu'>
-                        <i className='button_menu-icon'/>
-                    </Link>
 
+                <Link to="/menu" className='content_button-menu'>
+                    <i className='button_menu-icon'/>
+                </Link>
+
+                <div className='content_subject'>
                     <BlogsList className="subject_blogs-list"/>
                 </div>
             </div>
-        </div> 
+        </div>
      );
 }
- 
+
 export default Home;
