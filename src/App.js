@@ -20,15 +20,15 @@ function App() {
           </Route>
 
           <Route path='/details'>
-            <Details/>
+           {/* <Details/>*/}
           </Route>
 
           <Route path='/create'>
-            <Create/>
+           {/*<Create/>*/}
           </Route>
 
           <Route path='/edit'>
-            <Edit/>
+            {/*<Edit/>*/}
           </Route>
 
           <Route path='/about'>

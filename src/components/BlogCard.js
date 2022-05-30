@@ -1,6 +1,7 @@
-const BlogCard = (props) => {
+import {Link} from 'react-router-dom'
 
-    
+const BlogCard = (props) => {
+    console.log("title");
     return ( 
         <div className={"blogs-list_blog-card-" + props.id}>
             <div className={"blog-card-"+ props.id +"_mask"}/>
@@ -17,10 +18,8 @@ const BlogCard = (props) => {
                     <div className="shadow-container_shadow"/>
                 </div>
                 <p className="right-side_text">{props.content}</p>
-                <span className="right-side_read-more">Read more...</span>
+                <Link to ={"Blog" + props.id}> <span className="right-side_read-more">Read more...</span></Link>
             </div>
-           
-
         </div>
      );
 }

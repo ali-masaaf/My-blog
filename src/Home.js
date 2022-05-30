@@ -1,7 +1,9 @@
 import {Link} from 'react-router-dom'
 import BlogsList from './components/BlogsList';
+import useFetsh from "./hooks/useFetch"
 
 const Home = () => {
+    const {data:blogs} = useFetsh("http://localhost:5000/blogs");
     return ( 
         <div className="app_home">
             <div className="home_content">
@@ -17,7 +19,7 @@ const Home = () => {
                 </Link>
 
                 <div className='content_subject'>
-                    <BlogsList className="subject_blogs-list"/>
+                    {blogs && <BlogsList className="subject_blogs-list" blogs={blogs}/>}
                 </div>
             </div>
         </div>
