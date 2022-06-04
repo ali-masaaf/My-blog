@@ -5,7 +5,7 @@ const BlogsList = (props) => {
     return ( 
         <div className={props.className}>
             { props.blogs.map((blog) =>(
-                <BlogCard key={blog.id } id={blog.id} titel={blog.titel} content={blog.content}/>
+                <BlogCard key={blog.id } blog={blog}/>
             ))}
         </div>
      );

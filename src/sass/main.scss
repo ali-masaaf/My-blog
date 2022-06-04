@@ -28,7 +28,8 @@
   'components/app',
   'components/sidebar',
   'components/blogsList',
-  'components/blogCard';
+  'components/blogCard',
+  'components/blog';
 
 // 6. Page-specific styles
 @import
@@ -36,7 +37,8 @@
   'pages/about',
   'pages/notFound',
   'pages/contact',
-  'pages/menu';
+  'pages/menu',
+  'pages/details';
 
 // 7. Themes
 @import

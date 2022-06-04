@@ -19,8 +19,8 @@ function App() {
             <Home/>
           </Route>
 
-          <Route path='/details'>
-           {/* <Details/>*/}
+          <Route path='/details/:id'>
+            <Details/>
           </Route>
 
           <Route path='/create'>

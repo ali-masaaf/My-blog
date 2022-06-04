@@ -100,3 +100,39 @@
         }
     }
 }
+
+// Details page layout
+
+.details_content{
+        display: grid;
+        grid-template-columns: 12.4rem auto 2rem;
+        grid-template-rows:2.3rem auto;
+        justify-items: start;
+
+        .content_titel{
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+        }
+        
+        .content_subject{
+            grid-row: 2/ 3;
+            grid-column: 2 / 3;
+            /*display: grid;
+            grid-template-rows:10rem auto;
+            grid-template-columns: calc(100vw - 15.4rem) auto*/
+        }
+
+        .subject_button-menu{
+            justify-self: end;
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+}
+
+// Blog grid layout
+
+[class^="subject_blog"]{
+    display: grid;
+    grid-template-rows: 20% auto;
+    gap: 1rem;
+}
