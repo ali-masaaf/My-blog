@@ -22,7 +22,7 @@ const Details = () => {
                 </Link>
 
                 <div className='content_subject'>
-                    {blog && <Blog className="blog-details" blog={blog}/>}
+                    {blog && <Blog className="blog-details" blog={blog} contenteditable="false" />}
                 </div>
             </div>
         </div>

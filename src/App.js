@@ -24,7 +24,7 @@ function App() {
           </Route>
 
           <Route path='/create'>
-           {/*<Create/>*/}
+            <Create/>
           </Route>
 
           <Route path='/edit'>

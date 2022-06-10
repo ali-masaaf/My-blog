@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the create page.
+// -----------------------------------------------------------------------------
+
+.app_create{
+    
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    
+    .create_content{
+        padding: 2rem 2rem  2rem 1rem;
+        height: 100%;
+        width: auto;
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .content_titel{
+        font-size: 4.1rem;
+        font-family: "poppins-regular";
+        line-height: 7rem;
+        letter-spacing: 1.3rem;
+
+        margin-top: -1.9rem;
+        margin-left: -0.3rem;
+    
+    }
+
+    .content_subject{
+        width: 100%;
+
+    }
+
+    .content_subject::-webkit-scrollbar {
+        display: none;
+    }
+
+    .content_button-menu{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        z-index: 2;
+    }
+
+    .button_menu-icon{
+        height: 2rem;
+        width: 2rem;
+        background-image: url('/assets/icons/burger_menu.svg');
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
+
+    .content_subject{
+        height: 100%;
+        width: 100%;
+        padding: 0 1rem;
+        overflow: hidden;
+    }
+
+    .blog-create_titel{
+        border-bottom: 0.1rem solid #ffffff30;
+        content: 'Titel';
+        text-indent:0;
+        content:'Here is something else !';
+    }
+
+
+
+}
+
+
