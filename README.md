@@ -1,19 +1,35 @@
 ### <p align="center"> My-blog <p>
-<p align="center">A minimalistic personal blog site, where everyone can share his personal thoughts, storys, or diaries...</p>
+<p align="center">A minimalistic personal blog site, where everyone can share his personal thoughts, storeys, or diaries...</p>
 
 ----
+![image](https://drive.google.com/uc?export=view&id=1Y4Nh1xbrsQefpn65cPg33PKgDaP6LLRQ)
+
+![image](https://drive.google.com/uc?export=view&id=1PYOuEduYHOrvsv5GPllzYAAbyODucYLs)
+
+![image](https://drive.google.com/uc?export=view&id=1pke3Cv1cRK9gkTEB2jqvEBrtvbZ1aJAn)
+
+![image](https://drive.google.com/uc?export=view&id=1z-WOz9sX1A8vy1bqxMavocj1EFBstqBT)
+
+![image](https://drive.google.com/uc?export=view&id=1MRg6duLanu-7lpvpz7HDw_FgrKSRqsCC)
+
+![image](https://drive.google.com/uc?export=view&id=1yhUO69vbOPiHOIjAaunLf0luqYVvXBmi)
+
+![image](https://drive.google.com/uc?export=view&id=1pUFWHlEYTx5zWfa2wuawmONRwrwDidgh)
+
+
+
 
 ### Clone the project
 
 In the project directory run this command 
 ```
-git clone --branch  dev https://github.com/ali-masaaf/my-blog.git
+git clone --branch  dev git@github.com:ali-masaaf/my-blog.git
 ```
 
 ### Run the app
 
 In the project directory:
-1. Run the json server to consume the blogs data using this command:
+1. Run the Json-server to consume the blogs data using this command:
 ```
 npx json-server --watch data/db.json --port 8080
 ```
