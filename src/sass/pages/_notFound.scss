@@ -3,8 +3,8 @@
 // -----------------------------------------------------------------------------
 
 .app_not-found{
-    margin-top: 1rem;
-    margin-left: 0.5rem;
+    margin-top: 2.1rem;
+    margin-left: 1rem;
     letter-spacing: 0.1rem;
 
     a{
@@ -14,8 +14,12 @@
     .content_titel{
         font-family: 'Poppins-medium';
         font-weight: 500;
-        font-size: 5rem;
+        font-size: 6.7rem;
         line-height: 4.7rem;
+        position: relative;
+        left: -4px;
+
+    
         /* identical to box height, or 22% */
     }
 
