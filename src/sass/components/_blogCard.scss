@@ -8,7 +8,7 @@
 
 }
 
-.blog-card-2_mask , .blog-card-3_mask{
+[class$="mask"]{
     height: 101%;
     width: 101%;
     position: absolute;
@@ -20,6 +20,10 @@
     backdrop-filter: blur(2px);
     z-index: 10;
     overflow: hidden;
+}
+
+.blog-card-0_mask{
+    display: none;
 }
 
 [class$="left-side"]{
