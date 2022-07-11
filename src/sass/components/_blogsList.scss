@@ -1,4 +1,16 @@
+.subject_arrow-icon{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-image: url('/assets/icons/radish.svg');
+    position: absolute;
+    top: 1rem;
+    left: 16rem;
+}
+
 .subject_blogs-list{
     height: 26.77rem;
     width: fit-content;
+    position: relative;
 }

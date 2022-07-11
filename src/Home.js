@@ -1,6 +1,6 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import BlogsList from './components/BlogsList';
-import useFetsh from "./hooks/useFetch"
+import useFetsh from "./hooks/useFetch";
 
 const Home = () => {
     const {data:blogs} = useFetsh("http://localhost:5000/blogs");
@@ -31,9 +31,8 @@ const Home = () => {
                 <Link to="/menu" className='content_button-menu'>
                     <i className='button_menu-icon'/>
                 </Link>
-
                 <div className='content_subject' onScroll={(e)=>{handleScroll(e.target.firstChild.children)}}>
-                    {blogs && <BlogsList className="subject_blogs-list" blogs={blogs}/>}
+                    {blogs && <BlogsList className="subject" blogs={blogs}/>}
                 </div>
             </div>
         </div>

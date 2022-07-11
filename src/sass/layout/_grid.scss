@@ -69,7 +69,7 @@
 
     .home_content{
         display: grid;
-        grid-template-columns: 12.4rem auto;
+        grid-template-columns: 12.4rem 1fr 1fr;
         grid-template-rows:10rem auto;
         justify-items: start;
 
@@ -80,16 +80,22 @@
         
         .content_subject{
             grid-row: 2/ 3;
-            grid-column: 2 / 3;
+            grid-column: 2 / 4;
             /*display: grid;
             grid-template-rows:10rem auto;
             grid-template-columns: calc(100vw - 15.4rem) auto*/
         }
 
+        .content_icon{
+            justify-self: center;
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+
         .subject_button-menu{
             justify-self: end;
             grid-row: 1/2;
-            grid-column: 1/2;
+            grid-column: 3/4;
         }
 
         .subject_blogs-list{
